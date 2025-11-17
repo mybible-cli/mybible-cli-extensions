@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-11-17T13:42:36.345013Z",
+  "extensions": [
+    {
+      "name": "darkMac_theme",
+      "version": "1.5.0",
+      "type": "theme",
+      "description": "GUI dark theme for macOS",
+      "author": "Kos Ivantsov",
+      "files": {
+        "themes": [
+          "darkMac.json"
+        ]
+      },
+      "download_url": "https://github.com/kosivantsov/mybible-cli-extensions/raw/main/extensions/darkMac_theme-1.5.0.zip",
+      "size": 902,
+      "sha256": "1d244bdf0bdcde11cebecab26727135563362ad431acf872d36854b6d7e5e627",
+      "published_date": "2025-11-15T15:19:13.554629Z"
+    },
+    {
+      "name": "lightMac_theme",
+      "version": "1.5.0",
+      "type": "theme",
+      "description": "GUI light theme for macOS",
+      "author": "Kos Ivantsov",
+      "files": {
+        "themes": [
+          "lightMac.json"
+        ]
+      },
+      "download_url": "https://github.com/kosivantsov/mybible-cli-extensions/raw/main/extensions/lightMac_theme-1.5.0.zip",
+      "size": 897,
+      "sha256": "04b9632aeb5c856992048ddaadb993ca64fed550635b66b98559c18ce29873cf",
+      "published_date": "2025-11-17T13:42:36.344846Z"
+    }
+  ]
+}
