@@ -405,7 +405,7 @@ def publish(zip_path):
         "description": manifest['description'],
         "author": manifest['author'],
         "files": manifest['files'],
-        "download_url": f"https://github.com/kosivantsov/mybible-cli-extensions/raw/main/{dest_path}",
+        "download_url": f"https://github.com/mybible-cli/mybible-cli-extensions/raw/main/{dest_path}",
         "size": size,
         "sha256": checksum,
         "published_date": get_utc_timestamp()
