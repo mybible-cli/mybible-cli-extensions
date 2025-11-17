@@ -13,7 +13,7 @@
           "uk_mapping.json"
         ]
       },
-      "download_url": "https://github.com/kosivantsov/mybible-cli-extensions/raw/main/extensions/Ukrainian Mappings-1.0.0.zip",
+      "download_url": "https://github.com/mybible-cli/mybible-cli-extensions/raw/main/extensions/Ukrainian Mappings-1.0.0.zip",
       "size": 5848,
       "sha256": "0b3ef6f5f5669851085e6b20f7e98254c5d24f04d59d2566821af13750bb3660",
       "published_date": "2025-11-17T21:38:04.133826Z",
@@ -35,7 +35,7 @@
           "darkMac.json"
         ]
       },
-      "download_url": "https://github.com/kosivantsov/mybible-cli-extensions/raw/main/extensions/darkMac_theme-1.5.0.zip",
+      "download_url": "https://github.com/mybible-cli/mybible-cli-extensions/raw/main/extensions/darkMac_theme-1.5.0.zip",
       "size": 902,
       "sha256": "1d244bdf0bdcde11cebecab26727135563362ad431acf872d36854b6d7e5e627",
       "published_date": "2025-11-15T15:19:13.554629Z"
@@ -51,7 +51,7 @@
           "lightMac.json"
         ]
       },
-      "download_url": "https://github.com/kosivantsov/mybible-cli-extensions/raw/main/extensions/lightMac_theme-1.5.0.zip",
+      "download_url": "https://github.com/mybible-cli/mybible-cli-extensions/raw/main/extensions/lightMac_theme-1.5.0.zip",
       "size": 897,
       "sha256": "04b9632aeb5c856992048ddaadb993ca64fed550635b66b98559c18ce29873cf",
       "published_date": "2025-11-17T13:42:36.344846Z"
