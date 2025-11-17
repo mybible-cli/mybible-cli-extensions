@@ -10,6 +10,7 @@ import shutil
 import platform
 from datetime import datetime, timezone
 from pathlib import Path
+import urllib.parse
 
 EXTENSION_TYPES = ['theme', 'mapping', 'localization', 'bundle']
 
@@ -382,7 +383,9 @@ def publish(zip_path):
                         os.remove(old_path)
                         print(f"   ✅ Removed {old_path}")
 
-    ext_filename = f"{manifest['name']}-{manifest['version']}.zip"
+    # URL-encode the filename for safe use in URL
+    safe_name = urllib.parse.quote(manifest['name'].replace(' ', '_'))
+    ext_filename = f"{safe_name}-{manifest['version']}.zip"
     dest_path = f"extensions/{ext_filename}"
 
     os.makedirs('extensions', exist_ok=True)
@@ -398,6 +401,8 @@ def publish(zip_path):
     print(f"✅ Copied to: {dest_path}")
     print()
 
+    download_url = f"https://github.com/mybible-cli/mybible-cli-extensions/raw/main/{urllib.parse.quote(dest_path)}"
+
     extension_data = {
         "name": manifest['name'],
         "version": manifest['version'],
@@ -405,7 +410,7 @@ def publish(zip_path):
         "description": manifest['description'],
         "author": manifest['author'],
         "files": manifest['files'],
-        "download_url": f"https://github.com/mybible-cli/mybible-cli-extensions/raw/main/{dest_path}",
+        "download_url": download_url,
         "size": size,
         "sha256": checksum,
         "published_date": get_utc_timestamp()
