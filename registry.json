@@ -1,7 +1,29 @@
 {
   "version": "1.0",
-  "last_updated": "2025-11-18T14:06:40.584487Z",
+  "last_updated": "2025-11-18T14:24:36.327349Z",
   "extensions": [
+    {
+      "name": "Ukrainian_book_names",
+      "version": "1.0.0",
+      "type": "mapping",
+      "description": "Bible book names for Ukrainian",
+      "author": "Kos Ivantsov",
+      "files": {
+        "mappings": [
+          "uk_mapping.json"
+        ]
+      },
+      "download_url": "https://github.com/mybible-cli/mybible-cli-extensions/raw/main/extensions/Ukrainian_book_names-1.0.0.zip",
+      "size": 5849,
+      "sha256": "16ce3794b8efa6c279b30cc9ab2458dc8b775748147fa6458f563ba1b88a8f4b",
+      "published_date": "2025-11-18T14:24:36.327108Z",
+      "languages": [
+        "Ukrainian"
+      ],
+      "lang_codes": [
+        "uk"
+      ]
+    },
     {
       "name": "darkMac_theme",
       "version": "1.5.0",
