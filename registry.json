@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-11-18T14:24:52.325680Z",
+  "last_updated": "2025-11-18T14:25:00.950475Z",
   "extensions": [
     {
       "name": "Polish_book_names",
@@ -22,6 +22,28 @@
       ],
       "lang_codes": [
         "pl"
+      ]
+    },
+    {
+      "name": "Russian_book_names",
+      "version": "1.0.0",
+      "type": "mapping",
+      "description": "Bible book names for Russian",
+      "author": "Kos Ivantsov",
+      "files": {
+        "mappings": [
+          "ru_mapping.json"
+        ]
+      },
+      "download_url": "https://github.com/mybible-cli/mybible-cli-extensions/raw/main/extensions/Russian_book_names-1.0.0.zip",
+      "size": 8489,
+      "sha256": "48c763f16810e8fa9225083073e51af66227f765c87eece14051812449810eb7",
+      "published_date": "2025-11-18T14:25:00.950233Z",
+      "languages": [
+        "Russian"
+      ],
+      "lang_codes": [
+        "ru"
       ]
     },
     {
