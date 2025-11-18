@@ -1,7 +1,29 @@
 {
   "version": "1.0",
-  "last_updated": "2025-11-18T14:24:36.327349Z",
+  "last_updated": "2025-11-18T14:24:52.325680Z",
   "extensions": [
+    {
+      "name": "Polish_book_names",
+      "version": "1.0.0",
+      "type": "mapping",
+      "description": "Bible book names for Polish",
+      "author": "Kos Ivantsov",
+      "files": {
+        "mappings": [
+          "pl_mapping.json"
+        ]
+      },
+      "download_url": "https://github.com/mybible-cli/mybible-cli-extensions/raw/main/extensions/Polish_book_names-1.0.0.zip",
+      "size": 2366,
+      "sha256": "c7be6ca44af2837db4e4cf3eeb8ec9a792a2b0a888928746e9356f06a6c2abf5",
+      "published_date": "2025-11-18T14:24:52.325417Z",
+      "languages": [
+        "Polish"
+      ],
+      "lang_codes": [
+        "pl"
+      ]
+    },
     {
       "name": "Ukrainian_book_names",
       "version": "1.0.0",
